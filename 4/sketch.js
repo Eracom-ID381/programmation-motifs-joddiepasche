@@ -8,8 +8,8 @@ function setup() {
 function draw() {
     for (let x = 0; x < width; x = x + 10) {
         for (let y = 0; y < width; y = y + 10) {
-            triangle(300, random(0, 900), 10, 0, 0, 0);
-            triangle(300, random(0, 900), 10, 100, 100, 100);
+            triangle(1000, random(0, 1000), 10, 0, 0, 0);
+            triangle(300, random(0, 1000), 1800, 1800, 1800, 1800);
         }
     }
 }
