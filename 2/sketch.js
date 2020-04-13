@@ -9,8 +9,8 @@ function draw() {
 
     let x = 0;
     while (x < width) {
-        fill(255);
-        ellipse(x, height / 2, 10, 10);
+        fill(80, random(0, 220), 250);
+        ellipse(500, 500, random(30, 1000), random(30, 1000));
         x = x + 10;
     }
 }
