@@ -7,7 +7,9 @@ function setup() {
 
 function draw() {
     for (let x = 0; x < width; x = x + 10) {
-        ellipse(x, y, 10, 10);
+        for (let y = 0; y < width; y = y + 10) {
+            triangle(300, random(0, 900), 580, 200, 860, 29);
+        }
     }
 }
 
