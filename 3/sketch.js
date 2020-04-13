@@ -9,7 +9,7 @@ function draw() {
 
     for (let x = 0; x < width; x = x + 10) {
         for (let y = 0; y < height; y = y + 10) {
-            ellipse(x, y, width / 2, height / 2);
+            ellipse(x, y, width, height / 2);
         }
     }
 }
