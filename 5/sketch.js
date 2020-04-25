@@ -8,12 +8,11 @@ function setup() {
 function draw() {
     let x = 10;
     let y = 20
-    fill(100, 210, 140);
-    while (x < height) {
-        ellipse(x, height / 2, 30, 10);
-        ellipse(x, y, 30, 30);
-        x = x + 10;
-        y = y + 10;
+    fill(200, 0, 220);
+
+    for (let x = 0; x < width; x = x + 50) {
+        for (let y = 0; y < height; y = y + 50)
+            triangle(x, x, 24, y, 45, y)
     }
 }
 
