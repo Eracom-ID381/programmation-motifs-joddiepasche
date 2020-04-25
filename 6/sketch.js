@@ -10,9 +10,9 @@ function draw() {
     let y = 20
     fill(255);
     while (x < height) {
-        ellipse(x, height / 2, 30, 10);
-        ellipse(x, y, 30, 30);
-        x = x + 10;
+        quad(x, height, 0, 0);
+        ellipse(y, 10, y, y + 250);
+        x = x + 5;
         y = y + 30;
     }
 }

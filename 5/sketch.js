@@ -10,9 +10,10 @@ function draw() {
     let y = 20
     fill(200, 0, 220);
 
-    for (let x = 0; x < width; x = x + 50) {
+    for (let x = 0; x < width; x = x + 10) {
         for (let y = 0; y < height; y = y + 50)
-            triangle(x, x, 24, y, 45, y)
+            triangle(y, y, 1000, y, 25, y);
+        triangle(x, 0, 200, x, 200, x);
     }
 }
 
