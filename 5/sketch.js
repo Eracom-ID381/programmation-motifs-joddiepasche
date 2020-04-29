@@ -7,13 +7,21 @@ function setup() {
 
 function draw() {
     let x = 10;
-    let y = 20
-    fill(200, 0, 220);
 
     for (let x = 0; x < width; x = x + 10) {
-        for (let y = 0; y < height; y = y + 50)
-            triangle(y, y, 1000, y, 25, y);
+        stroke(255, 204, 0);
         triangle(x, 0, 200, x, 200, x);
+        stroke(255, 0, 200);
+        triangle(x, 150, 200, x, 200, x);
+        stroke(0, 255, 200);
+        triangle(x, 300, 200, x, 200, x);
+        stroke(0, 155, 250);
+        triangle(x, 450, 200, x, 200, x);
+
+        stroke(255, 150, 100);
+        triangle(x + 500, 200, width, x + 300, width, x + 700);
+        stroke(200, 155, 250);
+        triangle(x + 500, 100, width, x, width, x);
     }
 }
 
