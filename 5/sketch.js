@@ -19,9 +19,9 @@ function draw() {
         triangle(x, 450, 200, x, 200, x);
 
         stroke(255, 150, 100);
-        triangle(x + 500, 200, width, x + 300, width, x + 700);
+        triangle(x + 200, 750, width, x + 300, width, x + 700);
         stroke(200, 155, 250);
-        triangle(x + 500, 100, width, x, width, x);
+        triangle(x + 200, 750, width, x, width, x);
     }
 }
 
